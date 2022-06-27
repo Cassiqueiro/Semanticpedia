@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="pt-br">
+	<head>
+		<meta charset="utf-8">
+		<title>Caixas de seleções</title>
+	</head>
+	<body>
+		<h1><code>select + option + optgroup</code> element</h1>
+<p>
+<Selecione>
+<option value="1">a</option>
+<option value="2">b</option>
+</select> </p>
+<h2>Com rótulo</h2>
+<p>
+<label> Selecione<select>
+      <option value="1">a</option>
+      <option value="2">b</option>
+</select></label>  </p>
+
+<h2>Com rótulo e seleção opcional</h2>
+<p>
+<label> Selecione<select>
+      <option value="1" selected>a</option>
+      <option value="2">b</option>
+</select></label>  </p>
+    <h2>Com rótulo e seleção obrigatória</h2>
+<p>
+<label> Selecione<select required>
+      <option value="1">a</option>
+      <option value="2">b</option>
+    </select></label>  </p>
+    <h2>Com rótulo desabilitado</h2>
+<p>
+<label> Selecione<select disabled>
+      <option value="1">a</option>
+      <option value="2">b</option>
+    </select></label>  </p>
+ <h2>Com o atributo size=""</h2>
+    <select name="" size="3">
+  <option value="a">a</option>
+  <option value="b">b</option>
+  </select>
+  <h2>Com os atribuitos size e multiple</h2>
+  <select multiple size="3">
+  <option value="a">a</option>
+  <option value="b">b</option>
+  </select>
+  <h2>Com label e optgroup</h2>
+<p>
+<label> Selecione
+<select>
+<optgroup label="Grupo 1">
+<option value="1">a</option>
+<option value="2">b</option>
+</optgroup>
+<optgroup label="Grupo 2">
+<option value="1">a</option>
+<option value="2">b</option>
+</optgroup>
+</select>
+</label>  </p>
+
+<h2>Parâmetros</h2>
+<p>&lt;label> selecione <br>
+  &lt;select><br>
+  &lt;optgroup label="Grupo 1"><br>
+  &lt;option value="1">a&lt;/option><br>
+  &lt;option value="2">b&lt;/option><br>
+  &lt;/optgroup><br>
+  &lt;optgroup label="Grupo 2"><br>
+  &lt;option value="1">a&lt;/option><br>
+  &lt;option value="2">b&lt;/option><br>
+  &lt;/optgroup><br>
+  &lt;/select><br>
+&lt;/label></p>
+
+		<h2>Documentação oficial:</h2>
+		<ul>
+		<li><a href="http://www.cscfkcr w3.org/TR/html5/forms.html#the-select-element">Componente select no HTML5</a></li>
+		<li><a href="http://www.w3.org/TR/html5/forms.html#the-option-element">Componente option no HTML5</a></li>
+		<li><a href="http://www.w3.org/TR/html5/forms.html#the-optgroup-element">Componente optgroup no HTML5</a></li>
+		</ul>
+	</body>
+</html>
